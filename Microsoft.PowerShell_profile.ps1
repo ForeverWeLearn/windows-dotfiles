@@ -6,6 +6,10 @@ Set-Alias -Name ls -Value Invoke-Eza
 
 function Invoke-Eza { eza.exe -l --icons --group-directories-first $args }
 
+function la {
+    ls -a
+}
+
 function y {
     $tmp = (New-TemporaryFile).FullName
     yazi $args --cwd-file="$tmp"

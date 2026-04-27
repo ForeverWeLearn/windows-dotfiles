@@ -6,7 +6,7 @@ enable_logging: False
 rendering_backend: Legacy
 
 global:
-  border_width: 3
+  border_width: 4
   border_offset: -1
 
   #   - Auto: Automatically determine the radius
@@ -14,7 +14,7 @@ global:
   #   - Round: Fully rounded corners
   #   - RoundSmall: Slightly rounded corners
   #   - Or specify any numeric value for a custom radius
-  border_radius: Square
+  border_radius: Round
 
   #   - AboveWindow: Place the border above its window
   #   - BelowWindow: Place the border below its window
@@ -183,18 +183,6 @@ window_rules:
 
   - match: Process
     name: "tacky-borders"
-    enabled: False
-
-  - match: Process
-    name: "zebar"
-    enabled: False
-
-  - match: Title
-    name: "komorebi-bar"
-    enabled: False
-
-  - match: Title
-    name: "keyviz"
     enabled: False
 
   - match: Title

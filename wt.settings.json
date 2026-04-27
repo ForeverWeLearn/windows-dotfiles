@@ -33,7 +33,7 @@
         "defaults": 
         {
             "colorScheme": "Catppuccin Macchiato",
-            "cursorShape": "underscore",
+            "cursorShape": "bar",
             "font": 
             {
                 "cellHeight": "1.6",
@@ -42,7 +42,7 @@
                 "weight": "semi-bold"
             },
             "opacity": 50,
-            "padding": "32",
+            "padding": "48,32",
             "scrollbarState": "hidden",
             "useAcrylic": true
         },
@@ -67,40 +67,22 @@
                 "name": "Command Prompt"
             },
             {
-                "guid": "{4e9879fb-5c26-5d08-9c43-eb1db45696a5}",
+                "guid": "{fba891ba-f022-5a87-92f7-622a5e20ac7c}",
                 "hidden": false,
-                "name": "Developer Command Prompt for VS 18",
-                "source": "Windows.Terminal.VisualStudio"
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL"
             },
             {
-                "guid": "{c83826c5-356b-5148-b856-5ac02ecdfe81}",
+                "guid": "{9da5a504-2575-575d-808b-31aa0b049b22}",
                 "hidden": false,
-                "name": "Developer PowerShell for VS 18",
-                "source": "Windows.Terminal.VisualStudio"
+                "name": "archlinux",
+                "source": "Microsoft.WSL"
             },
             {
-                "guid": "{023e21cd-ef24-5ee0-bc67-9da74d96c59c}",
+                "guid": "{bd88297b-c4f4-55b1-a951-6c7cac1802b3}",
                 "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{a72ea4c8-8e6f-5465-873e-6d0f8c3e37df}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{cfd12159-59b7-5b50-a745-4b07ade0fda3}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 18",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{6752d755-60a3-5213-ab6c-d48bb02191d4}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 18",
-                "source": "Windows.Terminal.VisualStudio"
+                "name": "archlinux",
+                "source": "Microsoft.WSL"
             }
         ]
     },
