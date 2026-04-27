@@ -1,3 +1,5 @@
+# File location: %USERPROFILE%\.config\tacky-borders\config.yaml
+
 watch_config_changes: True
 enable_logging: False
 
