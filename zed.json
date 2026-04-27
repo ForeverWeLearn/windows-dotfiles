@@ -1,0 +1,107 @@
+{
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "base_keymap": "VSCode",
+  "bottom_dock_layout": "contained",
+  "buffer_font_family": "JetBrainsMono NF",
+  "buffer_font_size": 18.0,
+  "buffer_font_weight": 500.0,
+  "collaboration_panel": {
+    "button": false,
+    "dock": "left"
+  },
+  "debugger": {
+    "button": false
+  },
+  "disable_ai": true,
+  "git_panel": {
+    "button": false,
+    "dock": "left"
+  },
+  "icon_theme": "Catppuccin Mocha",
+  "max_tabs": 5,
+  "minimap": {
+    "current_line_highlight": "all",
+    "max_width_columns": 200,
+    "show": "always",
+    "thumb": "hover",
+    "thumb_border": "none"
+  },
+  "outline_panel": {
+    "button": false,
+    "dock": "left"
+  },
+  "project_panel": {
+    "button": false,
+    "dock": "left"
+  },
+  "search": {
+    "button": false
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "status_bar": {
+    "active_language_button": true,
+    "cursor_position_button": true
+  },
+  "tab_bar": {
+    "show": false,
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
+  },
+  "tab_size": 4,
+  "tabs": {
+    "activate_on_close": "neighbour",
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": true,
+    "show_close_button": "hidden"
+  },
+  "terminal": {
+    "button": false,
+    "cursor_shape": "bar",
+    "font_fallbacks": ["JetBrains Mono"],
+    "font_family": "JetBrainsMono NF",
+    "font_size": 16,
+    "font_weight": 600,
+    "line_height": "comfortable"
+  },
+  "theme": {
+    "dark": "Catppuccin Mocha",
+    "light": "Catppuccin Frappé",
+    "mode": "dark"
+  },
+  "theme_overrides": {
+    "Catppuccin Mocha": {
+      "background": "#181825",
+      "border": "#0000",
+      "border.disabled": "#0000",
+      "border.focused": "#0000",
+      "border.selected": "#0000",
+      "border.transparent": "#0000",
+      "border.variant": "#0000",
+      "scrollbar.track.background": "#0000",
+      "scrollbar.track.border": "#0000"
+    }
+  },
+  "title_bar": {
+    "show_branch_name": true,
+    "show_menus": false,
+    "show_onboarding_banner": false,
+    "show_project_items": false,
+    "show_sign_in": false,
+    "show_user_menu": false,
+    "show_user_picture": false
+  },
+  "toolbar": {
+    "agent_review": false,
+    "quick_actions": false
+  },
+  "ui_font_family": "JetBrains Mono",
+  "ui_font_size": 18.0,
+  "ui_font_weight": 500.0
+}
