@@ -19,10 +19,11 @@
 !kitty/*.conf
 !kitty/themes/*.conf
 
-!noctalia/templates/*
-!noctalia/*
-
 !mpv/mpv.conf
+
+!noctalia/*.json
+!noctalia/templates/*
+!noctalia/user-templates.toml
 
 !pwsh/Profile.ps1
 
