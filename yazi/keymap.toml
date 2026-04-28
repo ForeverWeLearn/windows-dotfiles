@@ -11,6 +11,12 @@ desc = "Close current tab"
 
 
 [[mgr.prepend_keymap]]
+on = ["<C-h>"]
+run = "hidden toggle"
+desc = "Toggle hidden files"
+
+
+[[mgr.prepend_keymap]]
 on = "l"
 run = "plugin smart-enter"
 desc = "Enter directory or open file"
@@ -20,6 +26,18 @@ desc = "Enter directory or open file"
 on = "<Right>"
 run = "plugin smart-enter"
 desc = "Enter directory or open file"
+
+
+[[mgr.prepend_keymap]]
+on = ["<C-j>"]
+run = "arrow 20%"
+desc = "Dash down"
+
+
+[[mgr.prepend_keymap]]
+on = ["<C-k>"]
+run = "arrow -20%"
+desc = "Dash cursor up"
 
 
 [[mgr.prepend_keymap]]
@@ -41,33 +59,8 @@ desc = "Switch or create tab 4"
 
 
 [[mgr.prepend_keymap]]
-on = "5"
-run = "plugin smart-switch 4"
-desc = "Switch or create tab 5"
-
-
-[[mgr.prepend_keymap]]
-on = "<C-p>"
-run = "plugin toggle-pane min-preview"
-desc = "Toggle preview pane"
-
-
-[[mgr.prepend_keymap]]
-on = ["g", "g"]
-run = "arrow top"
-desc = "Go to top"
-
-
-[[mgr.prepend_keymap]]
-on = ["g", "<Space>"]
-run = "cd --interactive"
-desc = "Jump interactive"
-
-
-[[mgr.prepend_keymap]]
-on = ["g", "f"]
-run = "follow"
-desc = "Follow symlink"
+on = "M"
+run = "plugin mount"
 
 
 [[mgr.append_keymap]]
@@ -101,35 +94,6 @@ desc = "Go to root"
 
 
 [[mgr.append_keymap]]
-on = ["g", "t"]
-run = "cd ~/.local/share/Trash/files"
-desc = "Go to trash"
-
-
-[[mgr.prepend_keymap]]
-on = ["<C-h>"]
-run = "hidden toggle"
-desc = "Toggle hidden files"
-
-
-[[mgr.prepend_keymap]]
-on = ["<C-j>"]
-run = "arrow 20%"
-desc = "Dash down"
-
-
-[[mgr.prepend_keymap]]
-on = ["<C-k>"]
-run = "arrow -20%"
-desc = "Dash cursor up"
-
-
-[[mgr.prepend_keymap]]
-on = "M"
-run = "plugin mount"
-
-
-[[mgr.prepend_keymap]]
-on   = [ "g", "i" ]
-run  = "plugin lazygit"
-desc = "run lazygit"
+on = ["g", "i"]
+run = "plugin lazygit"
+desc = "Run lazygit"

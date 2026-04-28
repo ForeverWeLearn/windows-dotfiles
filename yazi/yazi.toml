@@ -1,15 +1,9 @@
 [mgr]
 ratio = [1, 2, 2]
 sort_by = "extension"
+sort_dir_first = true
 linemode = "size"
-show_hidden = false
-
-
-[manager]
-prepend_hidden = [
-    "node_modules",
-    ".git",
-]
+show_hidden = true
 
 
 [preview]
