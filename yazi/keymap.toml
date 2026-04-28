@@ -122,3 +122,14 @@ desc = "Dash down"
 on = ["<C-k>"]
 run = "arrow -20%"
 desc = "Dash cursor up"
+
+
+[[mgr.prepend_keymap]]
+on = "M"
+run = "plugin mount"
+
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "i" ]
+run  = "plugin lazygit"
+desc = "run lazygit"
