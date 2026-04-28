@@ -28,6 +28,7 @@
 !pwsh/Profile.ps1
 
 !qimgv/qimgv.conf
+!qimgv/theme.conf
 
 !starship/starship.toml
 
