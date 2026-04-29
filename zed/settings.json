@@ -77,7 +77,10 @@
   "terminal": {
     "button": false,
     "cursor_shape": "bar",
-    "font_fallbacks": ["JetBrains Mono"],
+    "default_height": 400.0,
+    "font_fallbacks": [
+      "JetBrains Mono"
+    ],
     "font_family": "JetBrainsMono Nerd Font",
     "font_size": 16,
     "font_weight": 600,
@@ -117,5 +120,6 @@
   },
   "ui_font_family": "JetBrains Mono",
   "ui_font_size": 18.0,
-  "ui_font_weight": 500.0
+  "ui_font_weight": 500.0,
+  "vim_mode": false
 }
