@@ -7,5 +7,5 @@
   "linkHintCharacters": "qweruiopasdfhjkl",
   "searchEngines": "",
   "settingsVersion": "2.4.2",
-  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n  background: #363636;\n  box-shadow: 1px 1px 3px #18181899;\n  border: none;\n  border-radius: 3px;\n  padding: 2px 2px 0 3px;\n\n  & span {\n    color: #f0f0f0;\n    font-weight: 900;\n    font-size: 10px;\n    font-family: monospace;\n    text-shadow: none;\n    letter-spacing: 1px;\n  }\n}\n\ndiv#hud-container {\n  visibility: collapse;\n}"
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n    background: #1e1e2e;\n    box-shadow: 1px 1px 3px #31324499;\n    border: none;\n    border-radius: 3px;\n    padding: 2px 2px 0 3px;\n    \n    & span {\n        color: #dce2f5;\n        font-family: monospace;\n        font-size: 11px;\n        font-weight: 900;\n        text-shadow: none;\n        letter-spacing: 1px;\n    }\n\n    & > .matchingCharacter {\n        color: #cba6f7;\n    }\n}\n\ndiv#hud-container {\n    visibility: collapse;\n}"
 }
