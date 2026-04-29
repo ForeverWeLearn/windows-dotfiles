@@ -20,6 +20,8 @@
 !kitty/*.conf
 !kitty/themes/*.conf
 
+!lazygit/config.yml
+
 !mpv/mpv.conf
 
 !noctalia/*.json
