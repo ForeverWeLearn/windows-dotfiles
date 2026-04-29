@@ -16,10 +16,10 @@
         "enableWindowsSearch": false,
         "iconMode": "tabler",
         "ignoreMouseInput": false,
-        "overviewLayer": false,
+        "overviewLayer": true,
         "pinnedApps": [
         ],
-        "position": "bottom_center",
+        "position": "center",
         "screenshotAnnotationTool": "gradia",
         "showCategories": false,
         "showIconBackground": false,
@@ -48,14 +48,14 @@
         "capsuleOpacity": 0.5,
         "contentPadding": 2,
         "density": "spacious",
-        "displayMode": "non_exclusive",
+        "displayMode": "auto_hide",
         "enableExclusionZoneInset": true,
         "fontScale": 1,
         "frameRadius": 16,
         "frameThickness": 12,
         "hideOnOverview": false,
         "marginHorizontal": 12,
-        "marginVertical": 256,
+        "marginVertical": 196,
         "middleClickAction": "none",
         "middleClickCommand": "",
         "middleClickFollowMouse": false,
@@ -537,7 +537,7 @@
             }
         ],
         "showHeader": false,
-        "showKeybinds": true
+        "showKeybinds": false
     },
     "settingsVersion": 59,
     "systemMonitor": {
