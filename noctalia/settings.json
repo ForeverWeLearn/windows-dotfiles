@@ -48,7 +48,7 @@
         "capsuleOpacity": 0.5,
         "contentPadding": 2,
         "density": "spacious",
-        "displayMode": "auto_hide",
+        "displayMode": "non_exclusive",
         "enableExclusionZoneInset": true,
         "fontScale": 1,
         "frameRadius": 16,
@@ -497,29 +497,43 @@
                 "action": "suspend",
                 "command": "",
                 "countdownEnabled": true,
-                "enabled": true,
-                "keybind": "3"
+                "enabled": false,
+                "keybind": ""
             },
             {
                 "action": "logout",
                 "command": "",
                 "countdownEnabled": true,
-                "enabled": false,
-                "keybind": "4"
+                "enabled": true,
+                "keybind": "3"
             },
             {
                 "action": "lock",
                 "command": "",
                 "countdownEnabled": true,
                 "enabled": false,
-                "keybind": "5"
+                "keybind": ""
             },
             {
                 "action": "hibernate",
                 "command": "",
                 "countdownEnabled": true,
                 "enabled": false,
-                "keybind": "6"
+                "keybind": ""
+            },
+            {
+                "action": "userspaceReboot",
+                "command": "",
+                "countdownEnabled": true,
+                "enabled": false,
+                "keybind": ""
+            },
+            {
+                "action": "rebootToUefi",
+                "command": "",
+                "countdownEnabled": true,
+                "enabled": false,
+                "keybind": ""
             }
         ],
         "showHeader": false,
