@@ -45,7 +45,8 @@
 
 !yazi/init.lua
 !yazi/*.toml
-!yazi/flavors/**/*.toml
+!yazi/flavors/**/flavor.toml
+!yazi/flavors/**/tmtheme.xml
 !yazi/plugins/**/*.lua
 
 !zed/settings.json

@@ -1,10 +1,11 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
-alias cls="clear"
-alias pls="sudo -E"
-
 starship init fish | source
 zoxide init fish | source
+
+alias cls="clear"
+alias pls="sudo -E"
+alias hx="helix"
 
 function fish_greeting
     # catnap
