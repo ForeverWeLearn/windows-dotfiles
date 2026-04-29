@@ -12,6 +12,7 @@
 
 !fish/config.fish
 
+!helix/themes/*.toml
 !helix/config.toml
 
 !hypr/hyprlock.conf
