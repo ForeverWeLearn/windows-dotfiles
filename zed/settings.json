@@ -15,6 +15,7 @@
   "buffer_font_size": 18.0,
   "buffer_font_weight": 500.0,
   "collaboration_panel": {
+    "default_width": 420.0,
     "button": false,
     "dock": "left"
   },
@@ -23,6 +24,7 @@
   },
   "disable_ai": true,
   "git_panel": {
+    "default_width": 420.0,
     "button": false,
     "dock": "left"
   },
@@ -36,10 +38,12 @@
     "thumb_border": "none"
   },
   "outline_panel": {
+    "default_width": 420.0,
     "button": false,
     "dock": "left"
   },
   "project_panel": {
+    "default_width": 420.0,
     "button": false,
     "dock": "left"
   },
