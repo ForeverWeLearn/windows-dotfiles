@@ -32,6 +32,9 @@
   },
   "helix_mode": true,
   "icon_theme": "Catppuccin Mocha",
+  "inlay_hints": {
+    "enabled": true
+  },
   "max_tabs": 5,
   "minimap": {
     "current_line_highlight": "all",
