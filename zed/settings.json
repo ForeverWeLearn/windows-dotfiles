@@ -45,17 +45,21 @@
     "default_width": 420.0,
     "dock": "left"
   },
+  "preferred_line_length": 100,
   "project_panel": {
     "button": false,
     "default_width": 420.0,
     "dock": "left"
   },
+  "relative_line_numbers": "enabled",
   "search": {
     "button": false
   },
   "session": {
     "trust_all_worktrees": true
   },
+  "show_wrap_guides": false,
+  "soft_wrap": "preferred_line_length",
   "status_bar": {
     "active_language_button": true,
     "cursor_position_button": true,
